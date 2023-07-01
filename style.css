@@ -4,5 +4,81 @@
 
 header {
     background-color: #808080;
-    height: 50px;
+    height: 55px;
+}
+
+.cap {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cap table {
+    border: 0px solid;
+}
+
+.icon img {
+    display: block;
+    border-radius: 100%;
+}
+
+.icon p {
+    color: white;
+}
+
+.navi {
+    line-height: 52px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.navi li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    padding: 20px;
+}
+
+.myself {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 320px;
+    margin: 30px auto;
+    border-bottom: 3px solid #808080;
+}
+
+.avatar img {
+    margin-left: 50px;
+}
+
+.name {
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.name p {
+    margin-top: 30px;
+}
+
+#contacts {
+    width: 1000px;
+    margin: auto;
+    border-bottom: 3px solid #808080;
+}
+
+#about {
+    width: 1000px;
+    margin: auto;
+    border-bottom: 3px solid #808080;
 }
